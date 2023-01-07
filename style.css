@@ -216,7 +216,7 @@ img.plan-item-img {
 }
 
 .positive-content {
-    background-image: linear-gradient(90deg, #43cea2 100% , rgba(42, 125, 209, 0.473) 0%) ,url('../../compleate/new-year/images/watch.png') ;
+    background-image: linear-gradient(90deg, #43cea2 100% , rgba(42, 125, 209, 0.473) 0%) ,url('file:///E:/sifat/web%20design/mission%20web%20development%202023/assignment/compleate/new-year/images/watch.png') ;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
