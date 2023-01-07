@@ -210,7 +210,7 @@ img.plan-item-img {
 
 .positive-continer {
     width: 1140px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     margin: 0 auto;
     padding-top: 90px;
 }
@@ -244,4 +244,87 @@ img.plan-item-img {
     margin-top: 20px;
     font-weight: 800;
     background-color: #ffffff;
+    cursor: pointer;
+}
+/* footer section style */
+footer#footer {
+    background-color: #151414;
+    color: #ffffff;
+    width: 100%;
+    height: 60vh;
+}
+
+.footer-continer {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 100px;
+}
+
+h1.footer-left-title {
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.footer-left {
+    width: 570px;
+}
+
+.footer-right {
+    width: 570px;
+    text-align: center;
+}
+
+.footer-left-description {
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer-items li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer-icon {
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.fi{
+    margin-left: 10px;
+}
+
+h1.footer-right-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.footer-form input[type="email"] {
+    width: 55%;
+    height: 43px;
+    padding: 15px;
+    color: #dfd8d8;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 212px;
+}
+
+.footer-btn{
+    background-color: #ffffff;
+    width: 185px;
+    height: 64px;
+    margin-left: 67px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 700;
+    color:#F76030;
+    cursor: pointer;
 }
