@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+/* header style */
+.hader-banner{
+    background-image: url('../new-year/images/banner/banner2.png');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.hader-title {
+    padding-top: 10%;
+    padding-right: 10%;
+    font-size: 5rem;
+    text-align: right;
+    color: #151414;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.header-description{
+    padding-right: 10%;
+    text-align: right;
+    color: #444343;
+    font-size: 20px;
+    line-height: 5px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.primay-btn {
+    width: 145px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F76030;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hadder-btn {
+    text-align: right;
+    padding-right: 10%;
+}
