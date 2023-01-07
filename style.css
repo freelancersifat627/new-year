@@ -134,3 +134,76 @@ img.plan-item-img {
     font-weight: 900;
     word-spacing: 5px;
 }
+/* service style */
+.service-box {
+    display: flex;
+}
+
+.service-continer {
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.main-heading.service-heading {
+    margin-bottom: 50px;
+}
+
+.service-box-items {
+    margin-right: 20px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    background-color: #DEE1E6;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.service-box-items i {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    color: #FD653B;
+}
+
+.service-box-items h1 {
+    padding-bottom: 20px;
+    font-size: 25px;
+    word-spacing: 6px;
+    font-weight: 700;
+}
+
+.service-box-items p {
+    padding-top: 10px;
+    line-height: 30px;
+    color: #333333;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.service-box-items.second-service-box {
+    background-color: #ff694494;
+}
+
+.service-box-items.second-service-box i {
+    color: #ffffffff;
+}
+
+.service-box-items.fast-service-box:hover {
+    background-color: #ff694494;
+}
+
+.service-box-items.fast-service-box:hover i {
+    color: white;
+}
+
+.service-box-items.third-service-box:hover {
+    background-color: #ff694494;
+}
+
+.service-box-items.third-service-box:hover i {
+    color: white;
+}
